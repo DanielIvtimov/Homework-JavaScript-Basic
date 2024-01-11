@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+  #word-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #guess-input {
+    margin-top: 20px;
+  }
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #scaffold {
+    margin-top: 20px;
+    font-size: 18px;
+  }

@@ -1,0 +1,28 @@
+body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+     margin: 50px;
+}
+#calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    color: black;
+}
+
+#display {
+    grid-column: span 4;
+    text-align: right;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
